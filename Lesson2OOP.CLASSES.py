@@ -14,7 +14,7 @@ class Student(Person):
         Person.__init__(self)
         self.section = str(input("Enter Student's section:\t "))
 
-    def display_Student(self):
+    def display_student(self):
         print("Student section is ", self.section)
         print("Student name is ", self.name)
         print("Student age is ", self.age)
@@ -23,7 +23,7 @@ class Student(Person):
 P = Person()
 P.display()
 S = Student()
-S.display_Student()
+S.display_student()
 
 
 
